@@ -31,8 +31,10 @@ public class FieldNames {
 	public static final String REASON = "reason";
 	public static final String COMMENT = "comment";
 
+	public static final String CUSTOM_ID = "custom_id";
+
 	private static List<String> fieldNamesList = Arrays.asList(COMMIT, DATA, DATABASE,
-	GTID, OLD, POSITION, PRIMARY_KEY, PRIMARY_KEY_COLUMNS, QUERY, SERVER_ID, TABLE, THREAD_ID, TIMESTAMP, TRANSACTION_ID, TYPE, UUID, COMMENT);
+	GTID, OLD, POSITION, PRIMARY_KEY, PRIMARY_KEY_COLUMNS, QUERY, SERVER_ID, TABLE, THREAD_ID, TIMESTAMP, TRANSACTION_ID, TYPE, UUID, COMMENT,CUSTOM_ID);
 
 	private static final Set<String> fieldNamesSet = new HashSet<>(fieldNamesList);
 

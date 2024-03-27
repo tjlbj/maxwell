@@ -146,6 +146,7 @@ public class RowMap implements Serializable {
 
 		g.writeStartObject(); // start of row {
 
+		g.writeStringField(fieldNameStrategy.apply(FieldNames.CUSTOM_ID),"32601234");
 		g.writeStringField(fieldNameStrategy.apply(FieldNames.DATABASE), this.database);
 		g.writeStringField(fieldNameStrategy.apply(FieldNames.TABLE), this.table);
 
